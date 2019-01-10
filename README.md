@@ -4,7 +4,7 @@ A very simple Python skeleton app for use with Python 3.
 
 - Change the `CoolPackageName` folder to the name of your project/package.
 - Change `cool_file_name.py` to a meaningful filename.
-- Change `test_cool_file_name.py` to the name chosen above. Be sure to let that file name start with `test_` though! That way, py.test can automagically detect and run the tests within.
+- Change `test_cool_file_name.py` to the filename chosen above. Be sure to let that file name start with `test_` though! That way, py.test can automagically detect and run the tests within.
 
 Need some extra information? Check [Jean-Paul Calderone's](http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html) well explained blog post for how to structure your Python projects.
 
