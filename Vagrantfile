@@ -41,6 +41,8 @@ Vagrant.configure("2") do |config|
   echo ""
   echo "alias python=\"python3\"" >> /home/vagrant/.profile
   echo "alias pip=pip3" >> /home/vagrant/.profile
+  cd /code
+  pip install -r requirements.txt
   . ~/.profile
   SHELL
 end
