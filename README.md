@@ -33,5 +33,4 @@ $ vagrant plugin install vagrant-vbguest
 $ vagrant up
 $ vagrant ssh
 $ cd /code
-$ pip install -r requirements.txt
 ```
