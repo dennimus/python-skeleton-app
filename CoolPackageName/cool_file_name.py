@@ -9,7 +9,11 @@ __license__ = "MIT"
 
 def main():
     """ Main entry point of the app """
-    print("hello world")
+    print(get_string())
+
+
+def get_string():
+    return 'Hello world!'
 
 
 if __name__ == "__main__":
