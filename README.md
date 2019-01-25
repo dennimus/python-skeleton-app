@@ -22,7 +22,7 @@ Need some extra information? Check [Jean-Paul Calderone's](http://as.ynchrono.us
 $ git clone $(this.repo)
 $ cd $(this.repo)
 $ pip install -r requirements.txt
-$ pytest
+$ pytest --cov=.
 ```
 
 ### Vagrant
@@ -35,5 +35,5 @@ $ vagrant plugin install vagrant-vbguest
 $ vagrant up
 $ vagrant ssh
 $ cd /code
-$ pytest
+$ pytest --cov=.
 ```
