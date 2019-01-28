@@ -37,3 +37,6 @@ $ vagrant ssh
 $ cd /code
 $ pytest --cov=.
 ```
+
+
+test voor CI straat
